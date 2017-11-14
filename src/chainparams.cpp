@@ -136,8 +136,8 @@ public:
         assert(genesis.hashMerkleRoot == uint256S("0xc8a579c19e1d26155d71be53c49adffe5854b4b489f9a00bde1be0c4bc50ac04"));
 
 
-        vSeeds.push_back(CDNSSeedData("crowdcoinnodes.space", "dns.crowdcoinnodes.space"));
-        vSeeds.push_back(CDNSSeedData("shmest.win", "dns.shmest.win"));
+        vSeeds.push_back(CDNSSeedData("crowdcoin.site", "dns.crowdcoin.site"));
+
 
         // Crowdcoin addresses start with 'V'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,70);
