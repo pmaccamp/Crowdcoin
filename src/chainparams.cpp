@@ -124,12 +124,12 @@ public:
         nMaxTipAge = 6 * 60 * 60; // ~144 blocks behind -> 2 x fork detection time, was 24 * 60 * 60 in bitcoin
         nPruneAfterHeight = 100000;
 
-        genesis = CreateGenesisBlock(1510644922, 414098458, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1510692472, 414098458, 0x1e0ffff0, 1, 50 * COIN);
 
 //        consensus.hashGenesisBlock = uint256S("0x01");
-//        printf("new mainnet genesis merkle root: %s\n", genesis.hashMerkleRoot.GetHex().c_str());
-//        printf("new mainnet genesis nonce: %"PRIu32"\n", genesis.nNonce);
-//        printf("new mainnet genesis hash: %s\n", genesis.GetHash().GetHex().c_str());
+        printf("new mainnet genesis merkle root: %s\n", genesis.hashMerkleRoot.GetHex().c_str());
+        printf("new mainnet genesis nonce: %"PRIu32"\n", genesis.nNonce);
+        printf("new mainnet genesis hash: %s\n", genesis.GetHash().GetHex().c_str());
 
         consensus.hashGenesisBlock = genesis.GetHash();
         assert(consensus.hashGenesisBlock == uint256S("0xd0fe0e1e7d0342fdf8e3628ea02b828990c0f552a5ad0f9c42fecc334a7ae4c0"));
