@@ -165,6 +165,10 @@ public:
         strSporkPubKey = "04075cbd8aca7ac8bf628fee499242d99daa7eea51d34a223e96cf489fd3b83088dd96d536aeec4d4252a46a29becb7b9e74b49bcea010092840d62fb0f3383bf8";
         strMasternodePaymentsPubKey = "04075cbd8aca7ac8bf628fee499242d99daa7eea51d34a223e96cf489fd3b83088dd96d536aeec4d4252a46a29becb7b9e74b49bcea010092840d62fb0f3383bf8";
 
+        // removing all hardcoded seed LucaPaterlini
+        vFixedSeeds.clear();
+        vSeeds.clear();
+
         checkpointData = (CCheckpointData) {
                 boost::assign::map_list_of
                         (    0, uint256S("0xd0fe0e1e7d0342fdf8e3628ea02b828990c0f552a5ad0f9c42fecc334a7ae4c0")),
@@ -234,9 +238,10 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("0xd0fe0e1e7d0342fdf8e3628ea02b828990c0f552a5ad0f9c42fecc334a7ae4c0"));
         assert(genesis.hashMerkleRoot == uint256S("0xc8a579c19e1d26155d71be53c49adffe5854b4b489f9a00bde1be0c4bc50ac04"));
 
+
+        vSeeds.push_back(CDNSSeedData("crowdcoinnodes.space",  "testnet-dns.crowdcoinnodes.space"));
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("crowdcoinnodes.space",  "testnet-dns.crowdcoinnodes.space"));
 
         // Testnet Crowdcoin addresses start with 'n'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,112);
