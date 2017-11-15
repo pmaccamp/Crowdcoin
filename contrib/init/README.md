@@ -1,11 +1,11 @@
 Sample configuration files for:
 
-SystemD: vivod.service
-Upstart: vivod.conf
-OpenRC:  vivod.openrc
-         vivod.openrcconf
-CentOS:  vivod.init
-OS X:    org.vivo.vivod.plist
+SystemD: crowdcoind.service
+Upstart: crowdcoind.conf
+OpenRC:  crowdcoind.openrc
+         crowdcoind.openrcconf
+CentOS:  crowdcoind.init
+OS X:    org.crowdcoin.crowdcoind.plist
 
 have been made available to assist packagers in creating node packages here.
 

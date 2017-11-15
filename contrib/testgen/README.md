@@ -1,6 +1,6 @@
 ### TestGen ###
 
-Utilities to generate test vectors for the data-driven Vivo tests.
+Utilities to generate test vectors for the data-driven Crowdcoin tests.
 
 Usage: 
 

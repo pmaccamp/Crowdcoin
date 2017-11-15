@@ -1,6 +1,6 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin Core developers
-// Copyright (c) 2014-2017 The Vivo Core developers
+// Copyright (c) 2014-2017 The Crowdcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -51,8 +51,8 @@ static CBlock CreateGenesisBlock(const char* pszTimestamp, const CScript& genesi
  */
 static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
 {
-    const char* pszTimestamp = "Forbes 18/Aug/2017 Each Bitcoin Could Be Worth $619,047 In 10 Years";
-    const CScript genesisOutputScript = CScript() << ParseHex("04b1d9481bf8c331b28696c73a54349df6e1f16ab86424b7058de430b8ad516005ef9f9c1155e2f469df99df44e3e0bb347c63bf3a2c85c955bb2dca663227ad9f") << OP_CHECKSIG;
+    const char* pszTimestamp = "WSJ 15/Nov/2017 Donor-Advised Funds Gaining Assets-and Fans";
+    const CScript genesisOutputScript = CScript() << ParseHex("044c346abe29e39618ab891bd5aa98bbe1cba399a66095b4ec88b3a7ce82bb8243d570c65dd78b33118c70268d323ba4e6f384c4ce2ea7e7844ab0c9bc6774ab24") << OP_CHECKSIG;
     return CreateGenesisBlock(pszTimestamp, genesisOutputScript, nTime, nNonce, nBits, nVersion, genesisReward);
 }
 
@@ -92,8 +92,8 @@ public:
         consensus.BIP34Height = 227931; // FIX
         consensus.BIP34Hash = uint256S("0x000000000000024b89b42a942fe0d9fea3bb44ab7bd1b19115dd6a759c0808b8"); // FIX
         consensus.powLimit = uint256S("00000fffff000000000000000000000000000000000000000000000000000000");
-        consensus.nPowTargetTimespan = 30 * 2 * 60; // Vivo: 1 hour, 30 blocks
-        consensus.nPowTargetSpacing = 2 * 60; // Vivo: 2 minutes
+        consensus.nPowTargetTimespan = 30 * 2 * 60; // Crowdcoin: 1 hour, 30 blocks
+        consensus.nPowTargetSpacing = 2 * 60; // Crowdcoin: 2 minutes
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.fPowNoRetargeting = false;
         consensus.nRuleChangeActivationThreshold = 1916; // 95% of 2016
@@ -112,35 +112,35 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 32-bit integer with any alignment.
          */
-        pchMessageStart[0] = 0x1d;
-        pchMessageStart[1] = 0x42;
+        pchMessageStart[0] = 0x1b;
+        pchMessageStart[1] = 0x4b;
         pchMessageStart[2] = 0x5b;
-        pchMessageStart[3] = 0xa7;
-        vAlertPubKey = ParseHex("0476a1ada6f2c9b5ad0a61b1abfc58ed684cf67466d4e519f0a27161dd25f85560dccb309e39a6fdd2e91fb8f6e808b59f3c4044bff4df4d41b35d441c75938f4f");
+        pchMessageStart[3] = 0xab;
+        vAlertPubKey = ParseHex("044991cd44bcb26dbb18c8065dbbfe24cb21f761ead5f690d298bc816db187a5f74cf9552f11df570809321762838358c83073a3dad210c3a287c3d5efcce9860b");
         nDefaultPort = 12845;
         nMaxTipAge = 6 * 60 * 60; // ~144 blocks behind -> 2 x fork detection time, was 24 * 60 * 60 in bitcoin
         nPruneAfterHeight = 100000;
 
-        genesis = CreateGenesisBlock(1503127892, 2432118, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1510749000, 2544531, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x00000f6be3e151f9082a2b82c2916192a791090015b80979934a45d625460d62"));
-        assert(genesis.hashMerkleRoot == uint256S("0x35d3553e7bdc0568c8c37074cb7cc4bd930bd57ceff0799ddb0279487d3fd8df"));
+        assert(consensus.hashGenesisBlock == uint256S("0x00000daca7dc193212e30eca296acabd067247a26820271211844d452bd29987"));
+        assert(genesis.hashMerkleRoot == uint256S("0xf26d72165793b51cd4751e56ae0479818a2122dbc23b90f8b2a6ecbbe22717c4"));
 
 
-        vSeeds.push_back(CDNSSeedData("vivonodes.space", "dns.vivonodes.space"));
+        vSeeds.push_back(CDNSSeedData("crowdcoinnodes.space", "dns.crowdcoinnodes.space"));
         vSeeds.push_back(CDNSSeedData("shmest.win", "dns.shmest.win"));
 
-        // Vivo addresses start with 'V'
+        // Crowdcoin addresses start with 'V'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,70);
-        // Vivo script addresses start with '5'
+        // Crowdcoin script addresses start with '5'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,10);
-        // Vivo private keys start with '5' or 'V' (?)
+        // Crowdcoin private keys start with '5' or 'V' (?)
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,198);
-        // Vivo BIP32 pubkeys start with 'xpub' (Bitcoin defaults)
+        // Crowdcoin BIP32 pubkeys start with 'xpub' (Bitcoin defaults)
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
-        // Vivo BIP32 prvkeys start with 'xprv' (Bitcoin defaults)
+        // Crowdcoin BIP32 prvkeys start with 'xprv' (Bitcoin defaults)
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
-        // Vivo BIP44 coin type is '5'
+        // Crowdcoin BIP44 coin type is '5'
         base58Prefixes[EXT_COIN_TYPE]  = boost::assign::list_of(0x80)(0x00)(0x00)(0x05).convert_to_container<std::vector<unsigned char> >();
 
         vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_main, pnSeed6_main + ARRAYLEN(pnSeed6_main));
@@ -196,8 +196,8 @@ public:
         consensus.BIP34Height = 21111; // FIX
         consensus.BIP34Hash = uint256S("0x0000000023b3a96d3484e5abb3755c413e7d41500f8e2a5c3f0dd01299cd8ef8"); // FIX
         consensus.powLimit = uint256S("00000fffff000000000000000000000000000000000000000000000000000000");
-        consensus.nPowTargetTimespan = 60 * 60; // Vivo: 1 hour
-        consensus.nPowTargetSpacing = 2 * 60; // Vivo: 2 minutes
+        consensus.nPowTargetTimespan = 60 * 60; // Crowdcoin: 1 hour
+        consensus.nPowTargetSpacing = 2 * 60; // Crowdcoin: 2 minutes
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.fPowNoRetargeting = false;
         consensus.nRuleChangeActivationThreshold = 1512; // 75% for testchains
@@ -215,7 +215,7 @@ public:
         pchMessageStart[1] = 0x24;
         pchMessageStart[2] = 0xb5;
         pchMessageStart[3] = 0x7a;
-        vAlertPubKey = ParseHex("0476a1ada6f2c9b5ad0a61b1abfc58ed684cf67466d4e519f0a27161dd25f85560dccb309e39a6fdd2e91fb8f6e808b59f3c4044bff4df4d41b35d441c75938f4f");
+        vAlertPubKey = ParseHex("044c346abe29e39618ab891bd5aa98bbe1cba399a66095b4ec88b3a7ce82bb8243d570c65dd78b33118c70268d323ba4e6f384c4ce2ea7e7844ab0c9bc6774ab24");
         nDefaultPort = 13845;
         nMaxTipAge = 0x7fffffff; // allow mining on top of old blocks for testnet
         nPruneAfterHeight = 1000;
@@ -227,19 +227,19 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("vivonodes.space",  "testnet-dns.vivonodes.space"));
+        vSeeds.push_back(CDNSSeedData("crowdcoinnodes.space",  "testnet-dns.crowdcoinnodes.space"));
 
-        // Testnet Vivo addresses start with 'n'
+        // Testnet Crowdcoin addresses start with 'n'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,112);
-        // Testnet Vivo script addresses start with '9'
+        // Testnet Crowdcoin script addresses start with '9'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,20);
         // Testnet private keys start with '9' or 'c' (Bitcoin defaults) (?)
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,240);
-        // Testnet Vivo BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
+        // Testnet Crowdcoin BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x35)(0x87)(0xCF).convert_to_container<std::vector<unsigned char> >();
-        // Testnet Vivo BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
+        // Testnet Crowdcoin BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x35)(0x83)(0x94).convert_to_container<std::vector<unsigned char> >();
-        // Testnet Vivo BIP44 coin type is '1' (All coin's testnet default)
+        // Testnet Crowdcoin BIP44 coin type is '1' (All coin's testnet default)
         base58Prefixes[EXT_COIN_TYPE]  = boost::assign::list_of(0x80)(0x00)(0x00)(0x01).convert_to_container<std::vector<unsigned char> >();
 
         vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_test, pnSeed6_test + ARRAYLEN(pnSeed6_test));
@@ -296,8 +296,8 @@ public:
         consensus.BIP34Height = -1; // BIP34 has not necessarily activated on regtest
         consensus.BIP34Hash = uint256();
         consensus.powLimit = uint256S("7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
-        consensus.nPowTargetTimespan = 60 * 60; // Vivo: 1 hour
-        consensus.nPowTargetSpacing = 2 * 60; // Vivo: 2 minutes
+        consensus.nPowTargetTimespan = 60 * 60; // Crowdcoin: 1 hour
+        consensus.nPowTargetSpacing = 2 * 60; // Crowdcoin: 2 minutes
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.fPowNoRetargeting = true;
         consensus.nRuleChangeActivationThreshold = 108; // 75% for testchains
@@ -340,17 +340,17 @@ public:
             0,
             0
         };
-        // Regtest Vivo addresses start with 'n'
+        // Regtest Crowdcoin addresses start with 'n'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,112);
-        // Regtest Vivo script addresses start with '9'
+        // Regtest Crowdcoin script addresses start with '9'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,20);
         // Regtest private keys start with '9' or 'c' (Bitcoin defaults) (?)
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,240);
-        // Regtest Vivo BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
+        // Regtest Crowdcoin BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x35)(0x87)(0xCF).convert_to_container<std::vector<unsigned char> >();
-        // Regtest Vivo BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
+        // Regtest Crowdcoin BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x35)(0x83)(0x94).convert_to_container<std::vector<unsigned char> >();
-        // Regtest Vivo BIP44 coin type is '1' (All coin's testnet default)
+        // Regtest Crowdcoin BIP44 coin type is '1' (All coin's testnet default)
         base58Prefixes[EXT_COIN_TYPE]  = boost::assign::list_of(0x80)(0x00)(0x00)(0x01).convert_to_container<std::vector<unsigned char> >();
    }
 };

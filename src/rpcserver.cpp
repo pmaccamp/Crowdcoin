@@ -1,6 +1,6 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2017 The Vivo Core developers
+// Copyright (c) 2014-2017 The Crowdcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -243,11 +243,11 @@ UniValue stop(const UniValue& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "\nStop Vivo Core server.");
+            "\nStop Crowdcoin Core server.");
     // Event loop will exit after current HTTP requests have been handled, so
     // this reply will get back to the client.
     StartShutdown();
-    return "Vivo Core server stopping";
+    return "Crowdcoin Core server stopping";
 }
 
 /**
@@ -342,19 +342,19 @@ static const CRPCCommand vRPCCommands[] =
     { "hidden",             "resendwallettransactions", &resendwallettransactions, true},
 #endif
 
-    /* Vivo features */
-    { "vivo",               "masternode",             &masternode,             true  },
-    { "vivo",               "masternodelist",         &masternodelist,         true  },
-    { "vivo",               "masternodebroadcast",    &masternodebroadcast,    true  },
-    { "vivo",               "gobject",                &gobject,                true  },
-    { "vivo",               "getgovernanceinfo",      &getgovernanceinfo,      true  },
-    { "vivo",               "getsuperblockbudget",    &getsuperblockbudget,    true  },
-    { "vivo",               "voteraw",                &voteraw,                true  },
-    { "vivo",               "mnsync",                 &mnsync,                 true  },
-    { "vivo",               "spork",                  &spork,                  true  },
-    { "vivo",               "getpoolinfo",            &getpoolinfo,            true  },
+    /* Crowdcoin features */
+    { "crowdcoin",               "masternode",             &masternode,             true  },
+    { "crowdcoin",               "masternodelist",         &masternodelist,         true  },
+    { "crowdcoin",               "masternodebroadcast",    &masternodebroadcast,    true  },
+    { "crowdcoin",               "gobject",                &gobject,                true  },
+    { "crowdcoin",               "getgovernanceinfo",      &getgovernanceinfo,      true  },
+    { "crowdcoin",               "getsuperblockbudget",    &getsuperblockbudget,    true  },
+    { "crowdcoin",               "voteraw",                &voteraw,                true  },
+    { "crowdcoin",               "mnsync",                 &mnsync,                 true  },
+    { "crowdcoin",               "spork",                  &spork,                  true  },
+    { "crowdcoin",               "getpoolinfo",            &getpoolinfo,            true  },
 #ifdef ENABLE_WALLET
-    { "vivo",               "privatesend",            &privatesend,            false },
+    { "crowdcoin",               "privatesend",            &privatesend,            false },
 
     /* Wallet */
     { "wallet",             "keepass",                &keepass,                true },
@@ -577,7 +577,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(const std::string& methodname, const std::string& args)
 {
-    return "> vivo-cli " + methodname + " " + args + "\n";
+    return "> crowdcoin-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(const std::string& methodname, const std::string& args)

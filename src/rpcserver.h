@@ -123,7 +123,7 @@ public:
 };
 
 /**
- * Vivo RPC command dispatcher.
+ * Crowdcoin RPC command dispatcher.
  */
 class CRPCTable
 {

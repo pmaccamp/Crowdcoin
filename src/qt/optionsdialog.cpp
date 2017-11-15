@@ -3,7 +3,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/vivo-config.h"
+#include "config/crowdcoin-config.h"
 #endif
 
 #include "optionsdialog.h"
@@ -90,10 +90,10 @@ OptionsDialog::OptionsDialog(QWidget *parent, bool enableWallet) :
     }
     
     /* Theme selector */
-    ui->theme->addItem(QString("VIVO-light"), QVariant("light"));
-    ui->theme->addItem(QString("VIVO-blue"), QVariant("drkblue"));
-    ui->theme->addItem(QString("VIVO-Crownium"), QVariant("crownium"));
-    ui->theme->addItem(QString("VIVO-traditional"), QVariant("trad"));
+    ui->theme->addItem(QString("CRC-light"), QVariant("light"));
+    ui->theme->addItem(QString("CRC-blue"), QVariant("drkblue"));
+    ui->theme->addItem(QString("CRC-Crownium"), QVariant("crownium"));
+    ui->theme->addItem(QString("CRC-traditional"), QVariant("trad"));
     
     /* Language selector */
     QDir translations(":translations");

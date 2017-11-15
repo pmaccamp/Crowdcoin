@@ -9,8 +9,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between vivo-cli and vivod)
- * of a given instance of the Vivo system.
+ * CBaseChainParams defines the base parameters (shared between crowdcoin-cli and crowdcoind)
+ * of a given instance of the Crowdcoin system.
  */
 class CBaseChainParams
 {

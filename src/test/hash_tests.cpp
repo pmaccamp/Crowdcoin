@@ -4,7 +4,7 @@
 
 #include "hash.h"
 #include "utilstrencodings.h"
-#include "test/test_vivo.h"
+#include "test/test_crowdcoin.h"
 
 #include <vector>
 
