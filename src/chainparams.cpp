@@ -121,9 +121,9 @@ public:
         nMaxTipAge = 6 * 60 * 60; // ~144 blocks behind -> 2 x fork detection time, was 24 * 60 * 60 in bitcoin
         nPruneAfterHeight = 100000;
 
-        genesis = CreateGenesisBlock(1510754400, 3007932, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1510765200, 2907696, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0000064522d096dd60027b973198921ecad0d8250dfee52cebccc13b74bcf757"));
+        assert(consensus.hashGenesisBlock == uint256S("0x00000e28bfaf74ffcc6627c5916ac32e5efe6cba8d9cb44885d44d6b50d8c311"));
         assert(genesis.hashMerkleRoot == uint256S("0xf26d72165793b51cd4751e56ae0479818a2122dbc23b90f8b2a6ecbbe22717c4"));
 
 
@@ -158,8 +158,8 @@ public:
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            (    0, uint256S("0x0000064522d096dd60027b973198921ecad0d8250dfee52cebccc13b74bcf757")),
-            1503127892, // * UNIX timestamp of last checkpoint block
+            (    0, uint256S("0x00000e28bfaf74ffcc6627c5916ac32e5efe6cba8d9cb44885d44d6b50d8c311")),
+            1510765200, // * UNIX timestamp of last checkpoint block
             0,    // * total number of transactions between genesis and last checkpoint
                         //   (the tx=... number in the SetBestChain debug.log lines)
             2800        // * estimated number of transactions per day after checkpoint
@@ -219,9 +219,9 @@ public:
         nMaxTipAge = 0x7fffffff; // allow mining on top of old blocks for testnet
         nPruneAfterHeight = 1000;
 
-        genesis = CreateGenesisBlock(1510754400, 3007932, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1510765200, 2907696, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0000064522d096dd60027b973198921ecad0d8250dfee52cebccc13b74bcf757"));
+        assert(consensus.hashGenesisBlock == uint256S("0x00000e28bfaf74ffcc6627c5916ac32e5efe6cba8d9cb44885d44d6b50d8c311"));
         assert(genesis.hashMerkleRoot == uint256S("0xf26d72165793b51cd4751e56ae0479818a2122dbc23b90f8b2a6ecbbe22717c4"));
 
         vFixedSeeds.clear();
@@ -256,9 +256,9 @@ public:
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            ( 0, uint256S("0x0000064522d096dd60027b973198921ecad0d8250dfee52cebccc13b74bcf757")),
+            ( 0, uint256S("0x00000e28bfaf74ffcc6627c5916ac32e5efe6cba8d9cb44885d44d6b50d8c311")),
 
-            1503127892, // * UNIX timestamp of last checkpoint block
+            1510765200, // * UNIX timestamp of last checkpoint block
             0,     // * total number of transactions between genesis and last checkpoint
                         //   (the tx=... number in the SetBestChain debug.log lines)
             500         // * estimated number of transactions per day after checkpoint
@@ -316,9 +316,9 @@ public:
         nDefaultPort = 13855;
         nPruneAfterHeight = 1000;
 
-        genesis = CreateGenesisBlock(1510754400, 3007932, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1510765200, 2907696, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0000064522d096dd60027b973198921ecad0d8250dfee52cebccc13b74bcf757"));
+        assert(consensus.hashGenesisBlock == uint256S("0x00000e28bfaf74ffcc6627c5916ac32e5efe6cba8d9cb44885d44d6b50d8c311"));
         assert(genesis.hashMerkleRoot == uint256S("0xf26d72165793b51cd4751e56ae0479818a2122dbc23b90f8b2a6ecbbe22717c4"));
 
         vFixedSeeds.clear(); //! Regtest mode doesn't have any fixed seeds.
@@ -334,7 +334,7 @@ public:
 
         checkpointData = (CCheckpointData){
             boost::assign::map_list_of
-            ( 0, uint256S("0x0000064522d096dd60027b973198921ecad0d8250dfee52cebccc13b74bcf757")),
+            ( 0, uint256S("0x00000e28bfaf74ffcc6627c5916ac32e5efe6cba8d9cb44885d44d6b50d8c311")),
             0,
             0,
             0
