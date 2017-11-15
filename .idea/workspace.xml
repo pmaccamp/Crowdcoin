@@ -10,368 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3255d0c8-3751-45df-a7be-f897c4405132" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contrib/debian/examples/vivo.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contrib/debian/manpages/vivo-cli.1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contrib/debian/manpages/vivo-qt.1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contrib/debian/manpages/vivo.conf.5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contrib/debian/manpages/vivod.1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contrib/debian/vivo-qt.desktop.desktop" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contrib/debian/vivo-qt.install" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contrib/debian/vivo-qt.lintian-overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contrib/debian/vivo-qt.protocol" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contrib/debian/vivo-tx.install" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contrib/debian/vivod.bash-completion" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contrib/debian/vivod.examples" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contrib/debian/vivod.install" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contrib/debian/vivod.lintian-overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contrib/debian/vivod.manpages" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contrib/init/org.vivo.vivod.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contrib/init/vivod.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contrib/init/vivod.init" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contrib/init/vivod.openrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contrib/init/vivod.openrcconf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contrib/init/vivod.service" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contrib/vivo-qt.pro" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contrib/vivod.bash-completion" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/release-notes/vivo/release-notes-0.10.0.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/release-notes/vivo/release-notes-0.11.0.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/release-notes/vivo/release-notes-0.11.1.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/release-notes/vivo/release-notes-0.11.2.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/release-notes/vivo/release-notes-0.12.0.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/release-notes/vivo/release-notes-0.9.0.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/share/pixmaps/vivo128.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/share/pixmaps/vivo128.xpm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/share/pixmaps/vivo16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/share/pixmaps/vivo16.xpm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/share/pixmaps/vivo256.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/share/pixmaps/vivo256.xpm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/share/pixmaps/vivo32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/share/pixmaps/vivo32.xpm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/share/pixmaps/vivo64.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/share/pixmaps/vivo64.xpm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/bench/bench_vivo.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/qt/locale/vivo_bg.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/qt/locale/vivo_de.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/qt/locale/vivo_en.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/qt/locale/vivo_es.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/qt/locale/vivo_fi.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/qt/locale/vivo_fr.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/qt/locale/vivo_it.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/qt/locale/vivo_ja.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/qt/locale/vivo_pl.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/qt/locale/vivo_pt.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/qt/locale/vivo_ru.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/qt/locale/vivo_sk.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/qt/locale/vivo_sv.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/qt/locale/vivo_vi.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/qt/locale/vivo_zh_CN.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/qt/locale/vivo_zh_TW.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/qt/res/images/crownium/vivo_logo_horizontal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/qt/res/images/drkblue/vivo_logo_horizontal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/qt/res/images/light/vivo_logo_horizontal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/qt/res/images/trad/vivo_logo_horizontal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/qt/res/vivo-qt-res.rc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/qt/vivo.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/qt/vivo.qrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/qt/vivo_locale.qrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/qt/vivostrings.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/test_vivo.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/test_vivo.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/vivo-cli-res.rc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/vivo-cli.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/vivo-tx-res.rc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/vivo-tx.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/vivod-res.rc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/vivod.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivo-docs/protocol-documentation.md" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/CONTRIBUTING.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/COPYING" afterPath="$PROJECT_DIR$/COPYING" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/INSTALL" afterPath="$PROJECT_DIR$/INSTALL" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Makefile.am" afterPath="$PROJECT_DIR$/Makefile.am" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build-aux/m4/bitcoin_find_bdb48.m4" afterPath="$PROJECT_DIR$/build-aux/m4/bitcoin_find_bdb48.m4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build-aux/m4/bitcoin_qt.m4" afterPath="$PROJECT_DIR$/build-aux/m4/bitcoin_qt.m4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configure.ac" afterPath="$PROJECT_DIR$/configure.ac" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/README.md" afterPath="$PROJECT_DIR$/contrib/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/debian/README.md" afterPath="$PROJECT_DIR$/contrib/debian/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/debian/changelog" afterPath="$PROJECT_DIR$/contrib/debian/changelog" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/debian/control" afterPath="$PROJECT_DIR$/contrib/debian/control" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/debian/rules" afterPath="$PROJECT_DIR$/contrib/debian/rules" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/debian/watch" afterPath="$PROJECT_DIR$/contrib/debian/watch" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/devtools/README.md" afterPath="$PROJECT_DIR$/contrib/devtools/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/devtools/update-translations.py" afterPath="$PROJECT_DIR$/contrib/devtools/update-translations.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/gitian-descriptors/README.md" afterPath="$PROJECT_DIR$/contrib/gitian-descriptors/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-linux.yml" afterPath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-linux.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-osx-signer.yml" afterPath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-osx-signer.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-osx.yml" afterPath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-osx.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-rpi2.yml" afterPath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-rpi2.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-win-signer.yml" afterPath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-win-signer.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-win.yml" afterPath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-win.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/init/README.md" afterPath="$PROJECT_DIR$/contrib/init/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/linearize/README.md" afterPath="$PROJECT_DIR$/contrib/linearize/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/linearize/example-linearize-testnet.cfg" afterPath="$PROJECT_DIR$/contrib/linearize/example-linearize-testnet.cfg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/linearize/example-linearize.cfg" afterPath="$PROJECT_DIR$/contrib/linearize/example-linearize.cfg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/linearize/linearize-data.py" afterPath="$PROJECT_DIR$/contrib/linearize/linearize-data.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/macdeploy/Base.lproj/InfoPlist.strings" afterPath="$PROJECT_DIR$/contrib/macdeploy/Base.lproj/InfoPlist.strings" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/macdeploy/README.md" afterPath="$PROJECT_DIR$/contrib/macdeploy/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/macdeploy/detached-sig-create.sh" afterPath="$PROJECT_DIR$/contrib/macdeploy/detached-sig-create.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/macdeploy/fancy.plist" afterPath="$PROJECT_DIR$/contrib/macdeploy/fancy.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/macdeploy/macdeployqtplus" afterPath="$PROJECT_DIR$/contrib/macdeploy/macdeployqtplus" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/qos/README.md" afterPath="$PROJECT_DIR$/contrib/qos/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/qos/tc.sh" afterPath="$PROJECT_DIR$/contrib/qos/tc.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/qt_translations.py" afterPath="$PROJECT_DIR$/contrib/qt_translations.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/seeds/generate-seeds.py" afterPath="$PROJECT_DIR$/contrib/seeds/generate-seeds.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/seeds/nodes_main.txt" afterPath="$PROJECT_DIR$/contrib/seeds/nodes_main.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/spendfrom/README.md" afterPath="$PROJECT_DIR$/contrib/spendfrom/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/spendfrom/spendfrom.py" afterPath="$PROJECT_DIR$/contrib/spendfrom/spendfrom.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/testgen/README.md" afterPath="$PROJECT_DIR$/contrib/testgen/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/tidy_datadir.sh" afterPath="$PROJECT_DIR$/contrib/tidy_datadir.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/verify-commits/pre-push-hook.sh" afterPath="$PROJECT_DIR$/contrib/verify-commits/pre-push-hook.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/depends/README.md" afterPath="$PROJECT_DIR$/depends/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/assets-attribution.md" afterPath="$PROJECT_DIR$/doc/assets-attribution.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/gitian-building.md" afterPath="$PROJECT_DIR$/doc/gitian-building.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/masternode-budget.md" afterPath="$PROJECT_DIR$/doc/masternode-budget.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/release-process.md" afterPath="$PROJECT_DIR$/doc/release-process.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/translation_process.md" afterPath="$PROJECT_DIR$/doc/translation_process.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/translation_strings_policy.md" afterPath="$PROJECT_DIR$/doc/translation_strings_policy.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qa/README.md" afterPath="$PROJECT_DIR$/qa/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/qt/Info.plist.in" afterPath="$PROJECT_DIR$/share/qt/Info.plist.in" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/qt/extract_strings_qt.py" afterPath="$PROJECT_DIR$/share/qt/extract_strings_qt.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/setup.nsi.in" afterPath="$PROJECT_DIR$/share/setup.nsi.in" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Makefile.am" afterPath="$PROJECT_DIR$/src/Makefile.am" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Makefile.bench.include" afterPath="$PROJECT_DIR$/src/Makefile.bench.include" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Makefile.new.am" afterPath="$PROJECT_DIR$/src/Makefile.new.am" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Makefile.qt.include" afterPath="$PROJECT_DIR$/src/Makefile.qt.include" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Makefile.qttest.include" afterPath="$PROJECT_DIR$/src/Makefile.qttest.include" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Makefile.test.include" afterPath="$PROJECT_DIR$/src/Makefile.test.include" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/activemasternode.cpp" afterPath="$PROJECT_DIR$/src/activemasternode.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/activemasternode.h" afterPath="$PROJECT_DIR$/src/activemasternode.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/amount.cpp" afterPath="$PROJECT_DIR$/src/amount.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/base58.h" afterPath="$PROJECT_DIR$/src/base58.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bench/.gitignore" afterPath="$PROJECT_DIR$/src/bench/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cachemap.h" afterPath="$PROJECT_DIR$/src/cachemap.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cachemultimap.h" afterPath="$PROJECT_DIR$/src/cachemultimap.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chainparams.cpp" afterPath="$PROJECT_DIR$/src/chainparams.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chainparams.h" afterPath="$PROJECT_DIR$/src/chainparams.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chainparamsbase.h" afterPath="$PROJECT_DIR$/src/chainparamsbase.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/checkpoints.cpp" afterPath="$PROJECT_DIR$/src/checkpoints.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/clientversion.cpp" afterPath="$PROJECT_DIR$/src/clientversion.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/clientversion.h" afterPath="$PROJECT_DIR$/src/clientversion.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/coins.h" afterPath="$PROJECT_DIR$/src/coins.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/compat.h" afterPath="$PROJECT_DIR$/src/compat.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/compat/byteswap.h" afterPath="$PROJECT_DIR$/src/compat/byteswap.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/compat/endian.h" afterPath="$PROJECT_DIR$/src/compat/endian.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/compat/glibc_compat.cpp" afterPath="$PROJECT_DIR$/src/compat/glibc_compat.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/compat/glibc_sanity.cpp" afterPath="$PROJECT_DIR$/src/compat/glibc_sanity.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/compat/strnlen.cpp" afterPath="$PROJECT_DIR$/src/compat/strnlen.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/consensus/consensus.h" afterPath="$PROJECT_DIR$/src/consensus/consensus.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crypto/common.h" afterPath="$PROJECT_DIR$/src/crypto/common.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/darksend-relay.h" afterPath="$PROJECT_DIR$/src/darksend-relay.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/darksend.cpp" afterPath="$PROJECT_DIR$/src/darksend.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/darksend.h" afterPath="$PROJECT_DIR$/src/darksend.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/drafted/governance-categories.h" afterPath="$PROJECT_DIR$/src/drafted/governance-categories.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/drafted/governance-classes.h" afterPath="$PROJECT_DIR$/src/drafted/governance-classes.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/drafted/governance-keys.cpp" afterPath="$PROJECT_DIR$/src/drafted/governance-keys.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/drafted/governance-keys.h" afterPath="$PROJECT_DIR$/src/drafted/governance-keys.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/drafted/governance-types.cpp" afterPath="$PROJECT_DIR$/src/drafted/governance-types.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/drafted/governance-types.h" afterPath="$PROJECT_DIR$/src/drafted/governance-types.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dsnotificationinterface.cpp" afterPath="$PROJECT_DIR$/src/dsnotificationinterface.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flat-database.h" afterPath="$PROJECT_DIR$/src/flat-database.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/governance-classes.cpp" afterPath="$PROJECT_DIR$/src/governance-classes.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/governance-classes.h" afterPath="$PROJECT_DIR$/src/governance-classes.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/governance-exceptions.h" afterPath="$PROJECT_DIR$/src/governance-exceptions.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/governance-misc.h" afterPath="$PROJECT_DIR$/src/governance-misc.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/governance-object.cpp" afterPath="$PROJECT_DIR$/src/governance-object.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/governance-object.h" afterPath="$PROJECT_DIR$/src/governance-object.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/governance-vote.cpp" afterPath="$PROJECT_DIR$/src/governance-vote.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/governance-vote.h" afterPath="$PROJECT_DIR$/src/governance-vote.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/governance-votedb.cpp" afterPath="$PROJECT_DIR$/src/governance-votedb.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/governance-votedb.h" afterPath="$PROJECT_DIR$/src/governance-votedb.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/governance.cpp" afterPath="$PROJECT_DIR$/src/governance.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/governance.h" afterPath="$PROJECT_DIR$/src/governance.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hash.h" afterPath="$PROJECT_DIR$/src/hash.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/httpserver.cpp" afterPath="$PROJECT_DIR$/src/httpserver.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/init.cpp" afterPath="$PROJECT_DIR$/src/init.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/instantx.cpp" afterPath="$PROJECT_DIR$/src/instantx.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/instantx.h" afterPath="$PROJECT_DIR$/src/instantx.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/keepass.cpp" afterPath="$PROJECT_DIR$/src/keepass.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/keepass.h" afterPath="$PROJECT_DIR$/src/keepass.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.cpp" afterPath="$PROJECT_DIR$/src/main.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.h" afterPath="$PROJECT_DIR$/src/main.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/masternode-payments.cpp" afterPath="$PROJECT_DIR$/src/masternode-payments.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/masternode-payments.h" afterPath="$PROJECT_DIR$/src/masternode-payments.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/masternode-sync.cpp" afterPath="$PROJECT_DIR$/src/masternode-sync.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/masternode-sync.h" afterPath="$PROJECT_DIR$/src/masternode-sync.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/masternode.cpp" afterPath="$PROJECT_DIR$/src/masternode.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/masternode.h" afterPath="$PROJECT_DIR$/src/masternode.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/masternodeconfig.h" afterPath="$PROJECT_DIR$/src/masternodeconfig.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/masternodeman.cpp" afterPath="$PROJECT_DIR$/src/masternodeman.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/masternodeman.h" afterPath="$PROJECT_DIR$/src/masternodeman.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/miner.cpp" afterPath="$PROJECT_DIR$/src/miner.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net.cpp" afterPath="$PROJECT_DIR$/src/net.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/netbase.cpp" afterPath="$PROJECT_DIR$/src/netbase.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/netbase.h" afterPath="$PROJECT_DIR$/src/netbase.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/netfulfilledman.cpp" afterPath="$PROJECT_DIR$/src/netfulfilledman.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/netfulfilledman.h" afterPath="$PROJECT_DIR$/src/netfulfilledman.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/noui.cpp" afterPath="$PROJECT_DIR$/src/noui.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pow.cpp" afterPath="$PROJECT_DIR$/src/pow.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/protocol.cpp" afterPath="$PROJECT_DIR$/src/protocol.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/protocol.h" afterPath="$PROJECT_DIR$/src/protocol.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/addressbookpage.cpp" afterPath="$PROJECT_DIR$/src/qt/addressbookpage.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/addresstablemodel.cpp" afterPath="$PROJECT_DIR$/src/qt/addresstablemodel.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/askpassphrasedialog.cpp" afterPath="$PROJECT_DIR$/src/qt/askpassphrasedialog.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/bitcoinaddressvalidator.cpp" afterPath="$PROJECT_DIR$/src/qt/bitcoinaddressvalidator.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/bitcoinamountfield.cpp" afterPath="$PROJECT_DIR$/src/qt/bitcoinamountfield.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/bitcoingui.cpp" afterPath="$PROJECT_DIR$/src/qt/bitcoingui.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/bitcoingui.h" afterPath="$PROJECT_DIR$/src/qt/bitcoingui.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/bitcoinunits.cpp" afterPath="$PROJECT_DIR$/src/qt/bitcoinunits.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/bitcoinunits.h" afterPath="$PROJECT_DIR$/src/qt/bitcoinunits.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/clientmodel.cpp" afterPath="$PROJECT_DIR$/src/qt/clientmodel.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/clientmodel.h" afterPath="$PROJECT_DIR$/src/qt/clientmodel.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/coincontroldialog.cpp" afterPath="$PROJECT_DIR$/src/qt/coincontroldialog.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/darksendconfig.cpp" afterPath="$PROJECT_DIR$/src/qt/darksendconfig.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/editaddressdialog.cpp" afterPath="$PROJECT_DIR$/src/qt/editaddressdialog.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/forms/addressbookpage.ui" afterPath="$PROJECT_DIR$/src/qt/forms/addressbookpage.ui" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/forms/coincontroldialog.ui" afterPath="$PROJECT_DIR$/src/qt/forms/coincontroldialog.ui" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/forms/darksendconfig.ui" afterPath="$PROJECT_DIR$/src/qt/forms/darksendconfig.ui" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/forms/debugwindow.ui" afterPath="$PROJECT_DIR$/src/qt/forms/debugwindow.ui" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/forms/helpmessagedialog.ui" afterPath="$PROJECT_DIR$/src/qt/forms/helpmessagedialog.ui" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/forms/intro.ui" afterPath="$PROJECT_DIR$/src/qt/forms/intro.ui" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/forms/optionsdialog.ui" afterPath="$PROJECT_DIR$/src/qt/forms/optionsdialog.ui" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/forms/overviewpage.ui" afterPath="$PROJECT_DIR$/src/qt/forms/overviewpage.ui" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/forms/receivecoinsdialog.ui" afterPath="$PROJECT_DIR$/src/qt/forms/receivecoinsdialog.ui" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/forms/sendcoinsdialog.ui" afterPath="$PROJECT_DIR$/src/qt/forms/sendcoinsdialog.ui" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/forms/sendcoinsentry.ui" afterPath="$PROJECT_DIR$/src/qt/forms/sendcoinsentry.ui" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/forms/signverifymessagedialog.ui" afterPath="$PROJECT_DIR$/src/qt/forms/signverifymessagedialog.ui" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/guiconstants.h" afterPath="$PROJECT_DIR$/src/qt/guiconstants.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/guiutil.cpp" afterPath="$PROJECT_DIR$/src/qt/guiutil.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/guiutil.h" afterPath="$PROJECT_DIR$/src/qt/guiutil.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/intro.cpp" afterPath="$PROJECT_DIR$/src/qt/intro.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/macnotificationhandler.mm" afterPath="$PROJECT_DIR$/src/qt/macnotificationhandler.mm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/networkstyle.cpp" afterPath="$PROJECT_DIR$/src/qt/networkstyle.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/networkstyle.h" afterPath="$PROJECT_DIR$/src/qt/networkstyle.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/notificator.h" afterPath="$PROJECT_DIR$/src/qt/notificator.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/openuridialog.cpp" afterPath="$PROJECT_DIR$/src/qt/openuridialog.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/optionsdialog.cpp" afterPath="$PROJECT_DIR$/src/qt/optionsdialog.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/optionsmodel.cpp" afterPath="$PROJECT_DIR$/src/qt/optionsmodel.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/overviewpage.cpp" afterPath="$PROJECT_DIR$/src/qt/overviewpage.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/paymentserver.cpp" afterPath="$PROJECT_DIR$/src/qt/paymentserver.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/paymentserver.h" afterPath="$PROJECT_DIR$/src/qt/paymentserver.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/receiverequestdialog.cpp" afterPath="$PROJECT_DIR$/src/qt/receiverequestdialog.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/recentrequeststablemodel.h" afterPath="$PROJECT_DIR$/src/qt/recentrequeststablemodel.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/css/crownium.css" afterPath="$PROJECT_DIR$/src/qt/res/css/crownium.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/css/drkblue.css" afterPath="$PROJECT_DIR$/src/qt/res/css/drkblue.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/css/light.css" afterPath="$PROJECT_DIR$/src/qt/res/css/light.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/src/connect-0.svg" afterPath="$PROJECT_DIR$/src/qt/res/src/connect-0.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/src/connect-1.svg" afterPath="$PROJECT_DIR$/src/qt/res/src/connect-1.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/src/connect-2.svg" afterPath="$PROJECT_DIR$/src/qt/res/src/connect-2.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/src/connect-3.svg" afterPath="$PROJECT_DIR$/src/qt/res/src/connect-3.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/src/connect-4.svg" afterPath="$PROJECT_DIR$/src/qt/res/src/connect-4.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/rpcconsole.cpp" afterPath="$PROJECT_DIR$/src/qt/rpcconsole.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/sendcoinsdialog.cpp" afterPath="$PROJECT_DIR$/src/qt/sendcoinsdialog.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/sendcoinsentry.cpp" afterPath="$PROJECT_DIR$/src/qt/sendcoinsentry.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/signverifymessagedialog.cpp" afterPath="$PROJECT_DIR$/src/qt/signverifymessagedialog.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/splashscreen.cpp" afterPath="$PROJECT_DIR$/src/qt/splashscreen.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/test/Makefile" afterPath="$PROJECT_DIR$/src/qt/test/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/test/test_main.cpp" afterPath="$PROJECT_DIR$/src/qt/test/test_main.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/test/uritests.cpp" afterPath="$PROJECT_DIR$/src/qt/test/uritests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/transactiondesc.cpp" afterPath="$PROJECT_DIR$/src/qt/transactiondesc.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/transactionrecord.cpp" afterPath="$PROJECT_DIR$/src/qt/transactionrecord.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/utilitydialog.cpp" afterPath="$PROJECT_DIR$/src/qt/utilitydialog.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/walletmodel.cpp" afterPath="$PROJECT_DIR$/src/qt/walletmodel.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/walletview.h" afterPath="$PROJECT_DIR$/src/qt/walletview.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/rpcblockchain.cpp" afterPath="$PROJECT_DIR$/src/rpcblockchain.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/rpcclient.cpp" afterPath="$PROJECT_DIR$/src/rpcclient.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/rpcgovernance.cpp" afterPath="$PROJECT_DIR$/src/rpcgovernance.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/rpcmasternode.cpp" afterPath="$PROJECT_DIR$/src/rpcmasternode.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/rpcmining.cpp" afterPath="$PROJECT_DIR$/src/rpcmining.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/rpcmisc.cpp" afterPath="$PROJECT_DIR$/src/rpcmisc.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/rpcnet.cpp" afterPath="$PROJECT_DIR$/src/rpcnet.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/rpcprotocol.cpp" afterPath="$PROJECT_DIR$/src/rpcprotocol.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/rpcprotocol.h" afterPath="$PROJECT_DIR$/src/rpcprotocol.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/rpcrawtransaction.cpp" afterPath="$PROJECT_DIR$/src/rpcrawtransaction.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/rpcserver.cpp" afterPath="$PROJECT_DIR$/src/rpcserver.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/rpcserver.h" afterPath="$PROJECT_DIR$/src/rpcserver.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/script/bitcoinconsensus.h" afterPath="$PROJECT_DIR$/src/script/bitcoinconsensus.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sendalert.cpp" afterPath="$PROJECT_DIR$/src/sendalert.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/spork.cpp" afterPath="$PROJECT_DIR$/src/spork.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/spork.h" afterPath="$PROJECT_DIR$/src/spork.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/support/pagelocker.cpp" afterPath="$PROJECT_DIR$/src/support/pagelocker.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/Checkpoints_tests.cpp" afterPath="$PROJECT_DIR$/src/test/Checkpoints_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/DoS_tests.cpp" afterPath="$PROJECT_DIR$/src/test/DoS_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/Makefile" afterPath="$PROJECT_DIR$/src/test/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/README.md" afterPath="$PROJECT_DIR$/src/test/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/accounting_tests.cpp" afterPath="$PROJECT_DIR$/src/test/accounting_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/addrman_tests.cpp" afterPath="$PROJECT_DIR$/src/test/addrman_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/alert_tests.cpp" afterPath="$PROJECT_DIR$/src/test/alert_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/allocator_tests.cpp" afterPath="$PROJECT_DIR$/src/test/allocator_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/arith_uint256_tests.cpp" afterPath="$PROJECT_DIR$/src/test/arith_uint256_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/base32_tests.cpp" afterPath="$PROJECT_DIR$/src/test/base32_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/base58_tests.cpp" afterPath="$PROJECT_DIR$/src/test/base58_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/base64_tests.cpp" afterPath="$PROJECT_DIR$/src/test/base64_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/bip32_tests.cpp" afterPath="$PROJECT_DIR$/src/test/bip32_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/bloom_tests.cpp" afterPath="$PROJECT_DIR$/src/test/bloom_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/bswap_tests.cpp" afterPath="$PROJECT_DIR$/src/test/bswap_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/cachemap_tests.cpp" afterPath="$PROJECT_DIR$/src/test/cachemap_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/cachemultimap_tests.cpp" afterPath="$PROJECT_DIR$/src/test/cachemultimap_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/checkblock_tests.cpp" afterPath="$PROJECT_DIR$/src/test/checkblock_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/coins_tests.cpp" afterPath="$PROJECT_DIR$/src/test/coins_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/compress_tests.cpp" afterPath="$PROJECT_DIR$/src/test/compress_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/crypto_tests.cpp" afterPath="$PROJECT_DIR$/src/test/crypto_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/data/README.md" afterPath="$PROJECT_DIR$/src/test/data/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/data/bitcoin-util-test.json" afterPath="$PROJECT_DIR$/src/test/data/bitcoin-util-test.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/data/sighash.json" afterPath="$PROJECT_DIR$/src/test/data/sighash.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/dbwrapper_tests.cpp" afterPath="$PROJECT_DIR$/src/test/dbwrapper_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/getarg_tests.cpp" afterPath="$PROJECT_DIR$/src/test/getarg_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/hash_tests.cpp" afterPath="$PROJECT_DIR$/src/test/hash_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/key_tests.cpp" afterPath="$PROJECT_DIR$/src/test/key_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/limitedmap_tests.cpp" afterPath="$PROJECT_DIR$/src/test/limitedmap_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/main_tests.cpp" afterPath="$PROJECT_DIR$/src/test/main_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/mempool_tests.cpp" afterPath="$PROJECT_DIR$/src/test/mempool_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/merkle_tests.cpp" afterPath="$PROJECT_DIR$/src/test/merkle_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/miner_tests.cpp" afterPath="$PROJECT_DIR$/src/test/miner_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/multisig_tests.cpp" afterPath="$PROJECT_DIR$/src/test/multisig_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/netbase_tests.cpp" afterPath="$PROJECT_DIR$/src/test/netbase_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/pmt_tests.cpp" afterPath="$PROJECT_DIR$/src/test/pmt_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/policyestimator_tests.cpp" afterPath="$PROJECT_DIR$/src/test/policyestimator_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/pow_tests.cpp" afterPath="$PROJECT_DIR$/src/test/pow_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/prevector_tests.cpp" afterPath="$PROJECT_DIR$/src/test/prevector_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/ratecheck_tests.cpp" afterPath="$PROJECT_DIR$/src/test/ratecheck_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/reverselock_tests.cpp" afterPath="$PROJECT_DIR$/src/test/reverselock_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/rpc_tests.cpp" afterPath="$PROJECT_DIR$/src/test/rpc_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/rpc_wallet_tests.cpp" afterPath="$PROJECT_DIR$/src/test/rpc_wallet_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/sanity_tests.cpp" afterPath="$PROJECT_DIR$/src/test/sanity_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scheduler_tests.cpp" afterPath="$PROJECT_DIR$/src/test/scheduler_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/script_P2PKH_tests.cpp" afterPath="$PROJECT_DIR$/src/test/script_P2PKH_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/script_P2SH_tests.cpp" afterPath="$PROJECT_DIR$/src/test/script_P2SH_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/script_tests.cpp" afterPath="$PROJECT_DIR$/src/test/script_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scriptnum_tests.cpp" afterPath="$PROJECT_DIR$/src/test/scriptnum_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/serialize_tests.cpp" afterPath="$PROJECT_DIR$/src/test/serialize_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/sighash_tests.cpp" afterPath="$PROJECT_DIR$/src/test/sighash_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/sigopcount_tests.cpp" afterPath="$PROJECT_DIR$/src/test/sigopcount_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/skiplist_tests.cpp" afterPath="$PROJECT_DIR$/src/test/skiplist_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/streams_tests.cpp" afterPath="$PROJECT_DIR$/src/test/streams_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/timedata_tests.cpp" afterPath="$PROJECT_DIR$/src/test/timedata_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/transaction_tests.cpp" afterPath="$PROJECT_DIR$/src/test/transaction_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/txvalidationcache_tests.cpp" afterPath="$PROJECT_DIR$/src/test/txvalidationcache_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/uint256_tests.cpp" afterPath="$PROJECT_DIR$/src/test/uint256_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/univalue_tests.cpp" afterPath="$PROJECT_DIR$/src/test/univalue_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/util_tests.cpp" afterPath="$PROJECT_DIR$/src/test/util_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/versionbits_tests.cpp" afterPath="$PROJECT_DIR$/src/test/versionbits_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/timedata.cpp" afterPath="$PROJECT_DIR$/src/timedata.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/uint256.h" afterPath="$PROJECT_DIR$/src/uint256.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/util.cpp" afterPath="$PROJECT_DIR$/src/util.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/util.h" afterPath="$PROJECT_DIR$/src/util.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utiltime.cpp" afterPath="$PROJECT_DIR$/src/utiltime.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/version.h" afterPath="$PROJECT_DIR$/src/version.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/wallet/rpcdump.cpp" afterPath="$PROJECT_DIR$/src/wallet/rpcdump.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/wallet/rpcwallet.cpp" afterPath="$PROJECT_DIR$/src/wallet/rpcwallet.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/wallet/test/wallet_tests.cpp" afterPath="$PROJECT_DIR$/src/wallet/test/wallet_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/wallet/wallet.cpp" afterPath="$PROJECT_DIR$/src/wallet/wallet.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/wallet/wallet.h" afterPath="$PROJECT_DIR$/src/wallet/wallet.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/wallet/walletdb.cpp" afterPath="$PROJECT_DIR$/src/wallet/walletdb.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zmq/zmqconfig.h" afterPath="$PROJECT_DIR$/src/zmq/zmqconfig.h" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -387,102 +27,12 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="consensus.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/consensus/consensus.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.travis.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="52" column="35" lean-forward="false" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spork.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spork.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="76" column="27" lean-forward="false" selection-start-line="76" selection-start-column="27" selection-end-line="76" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spork.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spork.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="26" column="80" lean-forward="true" selection-start-line="26" selection-start-column="80" selection-end-line="26" selection-end-column="80" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="checkpoints.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/checkpoints.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
-              <caret line="85" column="0" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="chainparams.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chainparams.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="123" column="47" lean-forward="false" selection-start-line="123" selection-start-column="47" selection-end-line="123" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="changelog" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contrib/debian/changelog">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="354" column="49" lean-forward="false" selection-start-line="354" selection-start-column="49" selection-end-line="354" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nodes_main.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contrib/seeds/nodes_main.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="176" column="19" lean-forward="true" selection-start-line="176" selection-start-column="19" selection-end-line="176" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="1773" column="21" lean-forward="true" selection-start-line="1773" selection-start-column="21" selection-end-line="1773" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="744" column="12" lean-forward="false" selection-start-line="744" selection-start-column="12" selection-end-line="744" selection-end-column="12" />
+            <state relative-caret-position="162">
+              <caret line="153" column="33" lean-forward="true" selection-start-line="153" selection-start-column="33" selection-end-line="153" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -567,21 +117,21 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="crowdcoin" />
+              <option name="myItemId" value="Crowdcoin" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="crowdcoin" />
+              <option name="myItemId" value="Crowdcoin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="crowdcoin" />
+              <option name="myItemId" value="Crowdcoin" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="crowdcoin" />
+              <option name="myItemId" value="Crowdcoin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -658,6 +208,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -784,34 +340,35 @@
       <option name="presentableId" value="Default" />
       <updated>1510744182749</updated>
       <workItem from="1510744193780" duration="3001000" />
+      <workItem from="1510751237721" duration="126000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3001000" />
+    <option name="totallyTimeSpent" value="3127000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-1" width="1368" height="747" extended-state="1" />
+    <frame x="-1" y="-1" width="1368" height="747" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24944155" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -835,20 +392,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CONTRIBUTING.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
+        <state relative-caret-position="936">
           <caret line="52" column="35" lean-forward="false" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
           <folding />
         </state>
@@ -856,7 +402,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/spork.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
+        <state relative-caret-position="1368">
           <caret line="76" column="27" lean-forward="false" selection-start-line="76" selection-start-column="27" selection-end-line="76" selection-end-column="27" />
           <folding />
         </state>
@@ -864,8 +410,98 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/spork.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
+        <state relative-caret-position="468">
           <caret line="26" column="80" lean-forward="true" selection-start-line="26" selection-start-column="80" selection-end-line="26" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/checkpoints.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="85" column="0" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chainparams.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contrib/debian/changelog">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6372">
+          <caret line="354" column="49" lean-forward="false" selection-start-line="354" selection-start-column="49" selection-end-line="354" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contrib/seeds/nodes_main.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3168">
+          <caret line="176" column="19" lean-forward="true" selection-start-line="176" selection-start-column="19" selection-end-line="176" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31914">
+          <caret line="1773" column="21" lean-forward="true" selection-start-line="1773" selection-start-column="21" selection-end-line="1773" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13392">
+          <caret line="744" column="12" lean-forward="false" selection-start-line="744" selection-start-column="12" selection-end-line="744" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/consensus/consensus.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CONTRIBUTING.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="52" column="35" lean-forward="false" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spork.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="76" column="27" lean-forward="false" selection-start-line="76" selection-start-column="27" selection-end-line="76" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spork.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="80" lean-forward="false" selection-start-line="26" selection-start-column="80" selection-end-line="26" selection-end-column="80" />
           <folding />
         </state>
       </provider>
@@ -874,13 +510,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
           <caret line="63" column="27" lean-forward="false" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
+        <state relative-caret-position="13392">
           <caret line="744" column="12" lean-forward="false" selection-start-line="744" selection-start-column="12" selection-end-line="744" selection-end-column="12" />
           <folding />
         </state>
@@ -888,15 +523,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="1773" column="21" lean-forward="true" selection-start-line="1773" selection-start-column="21" selection-end-line="1773" selection-end-column="21" />
+        <state relative-caret-position="31914">
+          <caret line="1773" column="21" lean-forward="false" selection-start-line="1773" selection-start-column="21" selection-end-line="1773" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/contrib/debian/changelog">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
+        <state relative-caret-position="6372">
           <caret line="354" column="49" lean-forward="false" selection-start-line="354" selection-start-column="49" selection-end-line="354" selection-end-column="49" />
           <folding />
         </state>
@@ -904,24 +539,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/contrib/seeds/nodes_main.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="176" column="19" lean-forward="true" selection-start-line="176" selection-start-column="19" selection-end-line="176" selection-end-column="19" />
+        <state relative-caret-position="3168">
+          <caret line="176" column="19" lean-forward="false" selection-start-line="176" selection-start-column="19" selection-end-line="176" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/checkpoints.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="85" column="0" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+        <state relative-caret-position="-11">
+          <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chainparams.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="123" column="47" lean-forward="false" selection-start-line="123" selection-start-column="47" selection-end-line="123" selection-end-column="47" />
+        <state relative-caret-position="162">
+          <caret line="153" column="33" lean-forward="true" selection-start-line="153" selection-start-column="33" selection-end-line="153" selection-end-column="33" />
           <folding />
         </state>
       </provider>
