@@ -153,7 +153,7 @@ public:
 
         nPoolMaxTransactions = 3;
         nFulfilledRequestExpireTime = 60*60; // fulfilled requests expire in 1 hour
-        strstrSporkPubKey = "04bb75a6fd2d48f2f646bf82c6ce47a9fb617d86866c8e21cb74533c21ad7c8c50fd23c5f7eea14a4ceb329956964bcf15153e9cde9fdafb66f43d50efef99b855";
+        strSporkPubKey = "04bb75a6fd2d48f2f646bf82c6ce47a9fb617d86866c8e21cb74533c21ad7c8c50fd23c5f7eea14a4ceb329956964bcf15153e9cde9fdafb66f43d50efef99b855";
         strMasternodePaymentsPubKey = "04bb5a4399e05b574db503e5d3915cb522cc09fa8dd9dccb7b60d5718cb854825721047f0a51a7f103288f54caa459c0d4b2638ac6e5d76cd34d8d4dc0f2bd4c36";
 
         checkpointData = (CCheckpointData) {
@@ -251,7 +251,7 @@ public:
 
         nPoolMaxTransactions = 3;
         nFulfilledRequestExpireTime = 5*60; // fulfilled requests expire in 5 minutes
-        strstrSporkPubKey = "04bb75a6fd2d48f2f646bf82c6ce47a9fb617d86866c8e21cb74533c21ad7c8c50fd23c5f7eea14a4ceb329956964bcf15153e9cde9fdafb66f43d50efef99b855";
+        strSporkPubKey = "04bb75a6fd2d48f2f646bf82c6ce47a9fb617d86866c8e21cb74533c21ad7c8c50fd23c5f7eea14a4ceb329956964bcf15153e9cde9fdafb66f43d50efef99b855";
         strMasternodePaymentsPubKey = "04bb5a4399e05b574db503e5d3915cb522cc09fa8dd9dccb7b60d5718cb854825721047f0a51a7f103288f54caa459c0d4b2638ac6e5d76cd34d8d4dc0f2bd4c36";
 
         checkpointData = (CCheckpointData) {
