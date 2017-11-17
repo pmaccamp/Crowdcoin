@@ -9,7 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3255d0c8-3751-45df-a7be-f897c4405132" name="Default" comment="" />
+    <list default="true" id="3255d0c8-3751-45df-a7be-f897c4405132" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -381,15 +383,15 @@
       <workItem from="1510906341012" duration="3866000" />
       <workItem from="1510911795753" duration="25000" />
       <workItem from="1510914878507" duration="1621000" />
-      <workItem from="1510919929778" duration="57000" />
+      <workItem from="1510919929778" duration="233000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10958000" />
+    <option name="totallyTimeSpent" value="11134000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-1" width="1368" height="747" extended-state="0" />
+    <frame x="-1" y="-1" width="1368" height="747" extended-state="1" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24944155" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
