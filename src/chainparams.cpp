@@ -51,7 +51,7 @@ static CBlock CreateGenesisBlock(const char* pszTimestamp, const CScript& genesi
  */
 static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
 {
-    const char* pszTimestamp = "WSJ 17/Nov/2017 Google Chose an Answer-It's Often Wrong";
+    const char* pszTimestamp = "WSJ 21/Nov/2017 If There Is a Bubble, It's in Bitcoin";
     const CScript genesisOutputScript = CScript() << ParseHex("044c346abe29e39618ab891bd5aa98bbe1cba399a66095b4ec88b3a7ce82bb8243d570c65dd78b33118c70268d323ba4e6f384c4ce2ea7e7844ab0c9bc6774ab24") << OP_CHECKSIG;
     return CreateGenesisBlock(pszTimestamp, genesisOutputScript, nTime, nNonce, nBits, nVersion, genesisReward);
 }
@@ -73,7 +73,7 @@ public:
     CMainParams() {
         strNetworkID = "main";
         consensus.nSubsidyHalvingInterval = 262800; // one year
-        consensus.nMasternodePaymentsStartBlock = 2500; // half of a week
+        consensus.nMasternodePaymentsStartBlock = 200; // only few hours not a week
         consensus.nMasternodePaymentsIncreaseBlock = 158000; // not used
         consensus.nMasternodePaymentsIncreasePeriod = 576*30; // not used
         consensus.nInstantSendKeepLock = 24;
@@ -114,21 +114,21 @@ public:
          */
         pchMessageStart[0] = 0x1b;
         pchMessageStart[1] = 0x4b;
-        pchMessageStart[2] = 0x5b;
+        pchMessageStart[2] = 0x5a;
         pchMessageStart[3] = 0xaa;
         vAlertPubKey = ParseHex("044991cd44bcb26dbb18c8065dbbfe24cb21f761ead5f690d298bc816db187a5f74cf9552f11df570809321762838358c83073a3dad210c3a287c3d5efcce9860b");
         nDefaultPort = 12855;
         nMaxTipAge = 6 * 60 * 60; // ~144 blocks behind -> 2 x fork detection time, was 24 * 60 * 60 in bitcoin
         nPruneAfterHeight = 100000;
 
-        genesis = CreateGenesisBlock(1510912800, 1605468, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1511265600, 1298539, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x00000749f28243f74d5f91bb89e1f9f231816fa841a573dd5e3c8fc778adccbf"));
-        assert(genesis.hashMerkleRoot == uint256S("0x64c47237f40c9c3983c7c706c0d66b1e243d8339ed3ded2095d558a3a76d1ef6"));
+        assert(consensus.hashGenesisBlock == uint256S("0x00000176d6968387ffc826759220bbdcc8a04ac440778cac12514ed12b839fd0"));
+        assert(genesis.hashMerkleRoot == uint256S("0xa47bc5fe394ec6180f29f616616f577e5c9888d3ea74372ae497a7dffe8464b1"));
 
 
-        vSeeds.push_back(CDNSSeedData("crowdcoinnodes.space", "dns.crowdcoinnodes.space"));
-        vSeeds.push_back(CDNSSeedData("shmest.win", "dns.shmest.win"));
+        //vSeeds.push_back(CDNSSeedData("crowdcoinnodes.space", "dns.crowdcoinnodes.space"));
+        //vSeeds.push_back(CDNSSeedData("shmest.win", "dns.shmest.win"));
 
         // Crowdcoin addresses start with 'C'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,28);
@@ -158,7 +158,7 @@ public:
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            (    0, uint256S("0x00000749f28243f74d5f91bb89e1f9f231816fa841a573dd5e3c8fc778adccbf")),
+            (    0, uint256S("0x00000176d6968387ffc826759220bbdcc8a04ac440778cac12514ed12b839fd0")),
             1510912800, // * UNIX timestamp of last checkpoint block
             0,    // * total number of transactions between genesis and last checkpoint
                         //   (the tx=... number in the SetBestChain debug.log lines)
@@ -219,10 +219,10 @@ public:
         nMaxTipAge = 0x7fffffff; // allow mining on top of old blocks for testnet
         nPruneAfterHeight = 1000;
 
-        genesis = CreateGenesisBlock(1510912800, 1605468, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1511265600, 1298539, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x00000749f28243f74d5f91bb89e1f9f231816fa841a573dd5e3c8fc778adccbf"));
-        assert(genesis.hashMerkleRoot == uint256S("0x64c47237f40c9c3983c7c706c0d66b1e243d8339ed3ded2095d558a3a76d1ef6"));
+        assert(consensus.hashGenesisBlock == uint256S("0x00000176d6968387ffc826759220bbdcc8a04ac440778cac12514ed12b839fd0"));
+        assert(genesis.hashMerkleRoot == uint256S("0xa47bc5fe394ec6180f29f616616f577e5c9888d3ea74372ae497a7dffe8464b1"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -256,7 +256,7 @@ public:
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            ( 0, uint256S("0x00000749f28243f74d5f91bb89e1f9f231816fa841a573dd5e3c8fc778adccbf")),
+            ( 0, uint256S("0x00000176d6968387ffc826759220bbdcc8a04ac440778cac12514ed12b839fd0")),
 
             1510790400, // * UNIX timestamp of last checkpoint block
             0,     // * total number of transactions between genesis and last checkpoint
@@ -316,10 +316,10 @@ public:
         nDefaultPort = 13855;
         nPruneAfterHeight = 1000;
 
-        genesis = CreateGenesisBlock(1510912800, 1605468, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1511265600, 1298539, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x00000749f28243f74d5f91bb89e1f9f231816fa841a573dd5e3c8fc778adccbf"));
-        assert(genesis.hashMerkleRoot == uint256S("0x64c47237f40c9c3983c7c706c0d66b1e243d8339ed3ded2095d558a3a76d1ef6"));
+        assert(consensus.hashGenesisBlock == uint256S("0x00000176d6968387ffc826759220bbdcc8a04ac440778cac12514ed12b839fd0"));
+        assert(genesis.hashMerkleRoot == uint256S("0xa47bc5fe394ec6180f29f616616f577e5c9888d3ea74372ae497a7dffe8464b1"));
 
         vFixedSeeds.clear(); //! Regtest mode doesn't have any fixed seeds.
         vSeeds.clear();  //! Regtest mode doesn't have any DNS seeds.
@@ -334,7 +334,7 @@ public:
 
         checkpointData = (CCheckpointData){
             boost::assign::map_list_of
-            ( 0, uint256S("0x00000749f28243f74d5f91bb89e1f9f231816fa841a573dd5e3c8fc778adccbf")),
+            ( 0, uint256S("0x00000176d6968387ffc826759220bbdcc8a04ac440778cac12514ed12b839fd0")),
             0,
             0,
             0
