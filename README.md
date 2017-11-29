@@ -3,7 +3,7 @@ Crowdcoin Core staging tree 0.12.1
 
 `master:` [![Build Status](https://travis-ci.org/crowdcoincoin/crowdcoin.svg?branch=master)](https://travis-ci.org/crowdcoincoin/crowdcoin) `v0.12.0.x:` [![Build Status](https://travis-ci.org/crowdcoincoin/crowdcoin.svg?branch=v0.12.0.x)](https://travis-ci.org/crowdcoincoin/crowdcoin/branches) `v0.12.1.x:` [![Build Status](https://travis-ci.org/crowdcoincoin/crowdcoin.svg?branch=v0.12.1.x)](https://travis-ci.org/crowdcoincoin/crowdcoin/branches)
 
-https://www.crowdcoincrypto.com
+http://www.crowdcoin.site
 
 
 What is Crowdcoin?

@@ -1,11 +1,11 @@
-Vivo Core 0.12.1
+Crowdcoin Core 0.12.1
 =====================
 
-This is the official reference wallet for Vivo digital currency and comprises the backbone of the Vivo peer-to-peer network. You can [download Vivo Core](https://www.vivo.org/downloads/) or [build it yourself](#building) using the guides below.
+This is the official reference wallet for Crowdcoin digital currency and comprises the backbone of the Crowdcoin peer-to-peer network. You can [download Crowdcoin Core](https://www.crowdcoin.org/downloads/) or [build it yourself](#building) using the guides below.
 
 Running
 ---------------------
-The following are some helpful notes on how to run Vivo on your native platform.
+The following are some helpful notes on how to run Crowdcoin on your native platform.
 
 ### Unix
 
@@ -16,22 +16,22 @@ Unpack the files into a directory and run:
 
 ### Windows
 
-Unpack the files into a directory, and then run vivo-qt.exe.
+Unpack the files into a directory, and then run crowdcoin-qt.exe.
 
 ### OS X
 
-Drag Vivo-Qt to your applications folder, and then run Vivo-Qt.
+Drag Crowdcoin-Qt to your applications folder, and then run Crowdcoin-Qt.
 
 ### Need Help?
 
-* See the [Vivo documentation](https://vivocoin.atlassian.net/wiki/display/DOC)
+* See the [Crowdcoin documentation](https://crowdcoincoin.atlassian.net/wiki/display/DOC)
 for help and more information.
-* Ask for help on [#vivocoin](http://webchat.freenode.net?channels=vivocoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=vivocoin).
-* Ask for help on the [VivoTalk](https://vivotalk.org/) forums.
+* Ask for help on [#crowdcoincoin](http://webchat.freenode.net?channels=crowdcoincoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=crowdcoincoin).
+* Ask for help on the [CrowdcoinTalk](https://crowdcointalk.org/) forums.
 
 Building
 ---------------------
-The following are developer notes on how to build Vivo Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build Crowdcoin Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OS X Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -41,7 +41,7 @@ The following are developer notes on how to build Vivo Core on your native platf
 
 Development
 ---------------------
-The Vivo Core repo's [root README](/README.md) contains relevant information on the development process and automated testing.
+The Crowdcoin Core repo's [root README](/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -57,8 +57,8 @@ The Vivo Core repo's [root README](/README.md) contains relevant information on 
 - [Dnsseed Policy](dnsseed-policy.md)
 
 ### Resources
-* Discuss on the [VivoTalk](https://vivotalk.org/) forums, in the Development & Technical Discussion board.
-* Discuss on [#vivocoin](http://webchat.freenode.net/?channels=vivocoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=vivocoin).
+* Discuss on the [CrowdcoinTalk](https://crowdcointalk.org/) forums, in the Development & Technical Discussion board.
+* Discuss on [#crowdcoincoin](http://webchat.freenode.net/?channels=crowdcoincoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=crowdcoincoin).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)
