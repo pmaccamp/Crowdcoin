@@ -51,7 +51,7 @@ static CBlock CreateGenesisBlock(const char* pszTimestamp, const CScript& genesi
  */
 static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
 {
-    const char* pszTimestamp = "WSJ 29/Nov/2017 Bitcoin Price Hits 10.000 in Korea";
+    const char* pszTimestamp = "WSJ 29/Nov/2017 Bitcoin Price Hits 10.000... in Korea";
     const CScript genesisOutputScript = CScript() << ParseHex("0464583a290e81092bd0e4cb7971cf50b6c515e838ef86baf5c0554a5d7592eb1389ebc6e862006aa14a1d8da24f65be8e2e99c54e940800a1df97aa6df493e1c9") << OP_CHECKSIG;
     return CreateGenesisBlock(pszTimestamp, genesisOutputScript, nTime, nNonce, nBits, nVersion, genesisReward);
 }
