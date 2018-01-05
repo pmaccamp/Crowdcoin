@@ -23,7 +23,10 @@
 #include "wallet/wallet.h"
 #endif
 
+#define BOOST_NO_CXX11_SCOPED_ENUMS
 #include <boost/filesystem.hpp>
+#undef BOOST_NO_CXX11_SCOPED_ENUMS
+
 #include <boost/test/unit_test.hpp>
 #include <boost/thread.hpp>
 

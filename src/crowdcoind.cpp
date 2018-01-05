@@ -17,7 +17,9 @@
 #include "rpcserver.h"
 
 #include <boost/algorithm/string/predicate.hpp>
+#define BOOST_NO_CXX11_SCOPED_ENUMS
 #include <boost/filesystem.hpp>
+#undef BOOST_NO_CXX11_SCOPED_ENUMS
 #include <boost/thread.hpp>
 
 #include <stdio.h>

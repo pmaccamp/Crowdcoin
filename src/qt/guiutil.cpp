@@ -36,7 +36,10 @@
 #include "shlwapi.h"
 #endif
 
+#define BOOST_NO_CXX11_SCOPED_ENUMS
 #include <boost/filesystem.hpp>
+#undef BOOST_NO_CXX11_SCOPED_ENUMS
+
 #include <boost/filesystem/fstream.hpp>
 #if BOOST_FILESYSTEM_VERSION >= 3
 #include <boost/filesystem/detail/utf8_codecvt_facet.hpp>

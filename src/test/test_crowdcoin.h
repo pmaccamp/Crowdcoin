@@ -7,7 +7,10 @@
 #include "txdb.h"
 #include "txmempool.h"
 
+#define BOOST_NO_CXX11_SCOPED_ENUMS
 #include <boost/filesystem.hpp>
+#undef BOOST_NO_CXX11_SCOPED_ENUMS
+
 #include <boost/thread.hpp>
 
 /** Basic testing setup.

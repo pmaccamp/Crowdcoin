@@ -78,7 +78,10 @@
 #include <boost/algorithm/string/case_conv.hpp> // for to_lower()
 #include <boost/algorithm/string/join.hpp>
 #include <boost/algorithm/string/predicate.hpp> // for startswith() and endswith()
+#define BOOST_NO_CXX11_SCOPED_ENUMS
 #include <boost/filesystem.hpp>
+#undef BOOST_NO_CXX11_SCOPED_ENUMS
+
 #include <boost/filesystem/fstream.hpp>
 #include <boost/foreach.hpp>
 #include <boost/program_options/detail/config_file.hpp>
