@@ -3017,7 +3017,7 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
     </message>
     <message>
         <source>Received from</source>
-        <translation>Odebrano od</translation>
+        <translation>Otrzymane od</translation>
     </message>
     <message>
         <source>Received via Darksend</source>
@@ -3439,7 +3439,7 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
     </message>
     <message>
         <source>Already have that input.</source>
-        <translation>Ta wartość wejściowa już istnieje</translation>
+        <translation>Ta wartość input już istnieje</translation>
     </message>
     <message>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
@@ -3451,7 +3451,7 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
     </message>
     <message>
         <source>Can't denominate: no compatible inputs left.</source>
-        <translation>Niemożna denominować: Nie ma kompatybilnych transakcji wejściowych.</translation>
+        <translation>Nie można denominować: Nie ma kompatybilnych transakcji wejściowych.</translation>
     </message>
     <message>
         <source>Cannot downgrade wallet</source>
@@ -3503,7 +3503,7 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
     </message>
     <message>
         <source>Do not load the wallet and disable wallet RPC calls</source>
-        <translation>Nie wczytuj portfela oraz wyłącz połączenia RPC</translation>
+        <translation>Nie wczytuj portfela i wyłącz połączenia RPC</translation>
     </message>
     <message>
         <source>Do you want to rebuild the block database now?</source>
@@ -3555,7 +3555,7 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
     </message>
     <message>
         <source>Error: Disk space is low!</source>
-        <translation>Błąd: Przestrzeń dyskowa jest niska!</translation>
+        <translation>Błąd: Przestrzeń dyskowa jest za niska!</translation>
     </message>
     <message>
         <source>Error: Wallet locked, unable to create transaction!</source>
@@ -3707,7 +3707,7 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
     </message>
     <message>
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
-        <translation>Produkt ten zawiera oprogramowanie stworzone przez OpenSSL Project do użytku w OpenSSL Toolkit &lt;https://www.openssl.org/&gt;, oprogramowanie krptograficzne napisane przez Eric Young oraz oprogramowanie UPnP napisane przez Thomas Bernard.</translation>
+        <translation>Produkt ten zawiera oprogramowanie stworzone przez OpenSSL Projekt do użytku w OpenSSL Toolkit &lt;https://www.openssl.org/&gt;, oprogramowanie krptograficzne napisane przez Eric Young oraz oprogramowanie UPnP napisane przez Thomas Bernard.</translation>
     </message>
     <message>
         <source>To use crowdcoind, or the -server option to crowdcoin-qt, you must set an rpcpassword in the configuration file:
@@ -3728,7 +3728,7 @@ rpcuser=crowdcoinrpc
 rpcpassword=%s
 (Nie musisz pamiętać tego hasła)
 Twoje hasło NIE MOŻE być takie samo jak twój login.
-Jeśli plik ten nie istnieje, stwórz go z uprawnieniami do odczytu tylko przez właściciela.
+Jeśli plik nie istnieje, stwórz go z uprawnieniami do odczytu tylko przez właściciela.
 Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać ci znać w razie wystąpienia jekiegoś problemu, na przykład: alertnotify=echo %%s I -s "Crowdcoin Alert" admin@foo.com
 </translation>
     </message>
@@ -3832,7 +3832,7 @@ Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet requires newer version of Crowdcoin Core</source>
-        <translation>Błą wczytywania wallet.dat: Portfel wymaga nowszej wersji Crowdcoin</translation>
+        <translation>Błąd wczytywania wallet.dat: Portfel wymaga nowszej wersji Crowdcoin</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -4008,7 +4008,7 @@ Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać
     </message>
     <message>
         <source>No compatible Masternode found.</source>
-        <translation>Nie znalezione zadnego kompatybilnego Masternoda.</translation>
+        <translation>Nie znalezione żadnego kompatybilnego Masternoda.</translation>
     </message>
     <message>
         <source>Not in the Masternode list.</source>
@@ -4040,7 +4040,7 @@ Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać
     </message>
     <message>
         <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
-        <translation>Wyślij transakcje jako darmowe jeśli istnieje taka możliwość (domyślnie: %u)</translation>
+        <translation>Wyślij transakcje jako bez prowizji jeśli istnieje taka możliwość (domyślnie: %u)</translation>
     </message>
     <message>
         <source>Server certificate file (default: %s)</source>
@@ -4156,7 +4156,7 @@ Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać
     </message>
     <message>
         <source>Wallet needed to be rewritten: restart Crowdcoin Core to complete</source>
-        <translation>Portfel potrzebuje być przepisany: uruchom ponownie Crowdcoin Core aby zakończyć.</translation>
+        <translation>Portfel musi być przepisany: uruchom ponownie Crowdcoin Core aby zakończyć.</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
@@ -4256,7 +4256,7 @@ Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać
     </message>
     <message>
         <source>Masternode:</source>
-        <translation>Masternod:</translation>
+        <translation>Masternode:</translation>
     </message>
     <message>
         <source>Missing input transaction information.</source>
@@ -4388,7 +4388,7 @@ Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać
     </message>
     <message>
         <source>Specify your own public address</source>
-        <translation>Sprecyzuj swój adres publiczny</translation>
+        <translation>Ustaw swój adres publiczny</translation>
     </message>
     <message>
         <source>Synchronization pending...</source>
@@ -4456,7 +4456,7 @@ Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać
     </message>
     <message>
         <source>Upgrade wallet to latest format</source>
-        <translation>Ulepsz plik wallet.dat do nowego formatu</translation>
+        <translation>Ulepsz plik wallet.dat do najnowszego formatu</translation>
     </message>
     <message>
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
@@ -4476,7 +4476,7 @@ Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać
     </message>
     <message>
         <source>Value more than Darksend pool maximum allows.</source>
-        <translation>Wartość jest większa niż ta maksymalnie dopuszczalna przez Darksend pool</translation>
+        <translation>Wartość jest większa niż maksymalnie dopuszczalna przez Darksend pool</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -4492,7 +4492,7 @@ Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać
     </message>
     <message>
         <source>Wallet is locked.</source>
-        <translation>Portfel jest zamknięty.</translation>
+        <translation>Portfel jest zablokowany.</translation>
     </message>
     <message>
         <source>Wallet options:</source>
@@ -4508,7 +4508,7 @@ Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać
     </message>
     <message>
         <source>Warning: This version is obsolete, upgrade required!</source>
-        <translation>Ostrzeżenie: Wersja nieaktualna, zalecana aktualizacja!</translation>
+        <translation>Ostrzeżenie: Wersja nieaktualna, aktualizacja jest wymagana!</translation>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex to change -txindex</source>
@@ -4532,7 +4532,7 @@ Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać
     </message>
     <message>
         <source>wallet.dat corrupt, salvage failed</source>
-        <translation>Plik wallet.dat zepsuty, odzyskiwanie nie powiodło się</translation>
+        <translation>Plik wallet.dat zepsuty, odzyskiwanie nie udało się</translation>
     </message>
 </context>
 </TS>
