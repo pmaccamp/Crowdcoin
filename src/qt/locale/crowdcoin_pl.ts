@@ -3,7 +3,7 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Kliknij prawym przyciskiem myszki w celu edycji adresu lub etykiety</translation>
+        <translation>Kliknij prawym przyciskiem myszki aby zedytować adres, bądź etykietę </translation>
     </message>
     <message>
         <source>Create a new address</source>
